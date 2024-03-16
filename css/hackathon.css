@@ -172,7 +172,7 @@ color: #ffffff;
 
 
 span.colortext{
-	background: -webkit-linear-gradient(28deg, #7C83FD, #96BAFF,#7DEDFF,#88FFF7);
+	background: -webkit-linear-gradient(28deg, #f58d3e,#AC764F,#929EB3, #014078);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
 }
@@ -196,7 +196,7 @@ overflow: hidden;
 }
 
 span1{
-  background: -webkit-linear-gradient(28deg, #7C83FD, #96BAFF,#7DEDFF,#88FFF7);
+  background: -webkit-linear-gradient(28deg, #f58d3e,#AC764F,#929EB3, #014078);
   height:100%;
   width:0%;
   border-radius: 25px;
@@ -667,14 +667,14 @@ a{
 }
 
 span.colortext_h3{
-  background: -webkit-linear-gradient(28deg, #7C83FD, #96BAFF,#7DEDFF,#88FFF7);
+  background: -webkit-linear-gradient(28deg,#f58d3e,#AC764F,#929EB3, #014078);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: "JetBrains Mono";
 }
 
 span.colortext_body{
-  background: -webkit-linear-gradient(28deg, #7C83FD, #96BAFF,#7DEDFF,#88FFF7);
+  background: -webkit-linear-gradient(28deg, #F58D3E,#AC764F,#929EB3,#014078);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: "JetBrains Mono";
@@ -689,7 +689,7 @@ span.colortext_body{
 }
 
 .faq-item .answer a:hover {
-  background: linear-gradient(to right, #7C83FD, #96BAFF, #7DEDFF, #88FFF7);
+  background: linear-gradient(to right, #f58d3e,#AC764F,#929EB3, #014078);
   background-repeat: no-repeat;
 
   background-size: 100% 100%;
@@ -710,7 +710,7 @@ span.colortext_body{
 }
 
 .title_link a:hover {
-  background: linear-gradient(to right, #7C83FD, #96BAFF, #7DEDFF, #88FFF7);
+  background: linear-gradient(to right, #f58d3e,#AC764F,#929EB3, #014078);
   background-repeat: no-repeat;
 
   background-size: 100% 100%;

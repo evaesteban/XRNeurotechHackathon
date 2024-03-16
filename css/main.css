@@ -105,7 +105,7 @@ text-shadow: 0 0 10px rgba(0,0,0,0.5);
 
 
 span.colortext{
-	background: -webkit-linear-gradient(28deg, #7C83FD, #96BAFF,#7DEDFF,#88FFF7);
+	background: -webkit-linear-gradient(28deg, #e7a644, #d0471e,#4747f1,#5940c9);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
 }

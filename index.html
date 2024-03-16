@@ -2,7 +2,7 @@
 <html>
 
 <head>
-	<title>Neureality</title>
+	<title>OpenBCI XR Neurotechnology Hackathon 2024</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<!--google font-->
@@ -35,7 +35,7 @@
 				<li id="Hacking Tracks"><a href="./index.html#hacking_tracks">Hacking Tracks</a></li>
 				<li id="Events"><a href="./index.html#schedule_sec">Schedule</a></li>
 				<li id="Team"> <a href="./index.html#sponsors">Sponsors</a></li>
-				<li id="Contact"><a href="./FAQ.html">FAQ</a></li>
+				<li id="Contact"><a href="./index.html#faq">FAQ</a></li>
 				  <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
 			  </ul>
 		</nav>
@@ -54,16 +54,19 @@
 		}
 	</script>
 
-	<div class="wrapper">
+	<div class="landing">
+		<img class="wrapper__image" src="./images/openbci_hackathon_banner.jpg" alt="OpenBCI Hackathon" />
    <!-- <video autoplay muted class="wrapper__video">
       <source src="./images/Neureality%20Hackathon_Promo_1080p_v2.mp4">
    </video> -->
-</div>
+	</div>
+
+
 	<div class="landing">
 		<div class="text-container">
 			<div id='major_word' class="major_word">
-				<h1 id='title_word' class="title_word">OpenBCI<span class="colortext">XR + Neurotechnology</span> HACKATHON 2024</h1>
-				<h2 id='title_word' class="title_word2"><span class="colortext">NEUROTECH + XR </span> </h2>
+				<h1 class="title_word">OpenBCI<span class="colortext">XR + Neurotechnology</span> HACKATHON 2024</h1>
+				<h2 class="title_word2"><span class="colortext">NEUROTECH + XR </span> </h2>
 				<p class="subtitle_word">June 6-7 @ Columbia University in NYC</p>
 				<p class="subtitle_word">2-day hackathon combining the latest advances in neurotechnology, multi-modal biosensing, and extended reality.</p>
 			</div>
@@ -72,6 +75,7 @@
 		</div>
 	</div>
 
+
 	<script>
 		if (window.screen.width > 600) {
 			let word = document.getElementById('title_word');
@@ -79,16 +83,14 @@
 				let value= window.scrollY;
 				word.style.fontSize = 600 +value +'%';
 			})}
-
 	</script>
 
-	<div class="landing2">
+	<!-- <div class="landing2">
 	<div class="text-container">
 				<button id="getstart" class="getstart" type="button" onclick="window.open('https://calendar.google.com/calendar/u/0?cid=Y19lMzRlNmYwZDFhOWMzMWQxNDdmM2ExNDQ3MjVlNTczM2Q3ZTNlMjk0NGM1NTc4ZTYyMzI4ZThlNDJmZDk1NTc4QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20', '_blank');"><span1></span1>Add to Calendar!</button>
 				<button id="getstart" class="getstart" type="button" onclick="window.location.href='https://forms.gle/R46tcVrDjuF7RNbb9';"><span1></span1>Register Now!</button>
 		</div>
-	</div>
-
+	</div> -->
 
 
 	<div id="hacking_tracks" class="text-container2">
@@ -98,8 +100,8 @@
 		</div>
 
 		<div class="box_container">
-			<div class="box" onclick="window.open('https://github.com/Neureality-CU/Neureality/blob/main/CortexType%20Documentation.pdf', '_blank');">
-				<h2>⌨️</h2>
+			<div class="box" onclick="window.open('https://www.eventbrite.com/e/hackathon-xr-neurotechnology-tickets-657866545547');">
+				<h2>💡</h2>
 				<h3><span class="colortext_h3">Topic 1</span></h3>
 				<div class="descrip">TBA</div>
 				<ul class="list">
@@ -107,8 +109,8 @@
 				</ul>
 			</div>
 
-			<div class="box" onclick="window.open('https://github.com/Neureality-CU/Neureality/blob/main/GameTrack%20%20Documentation.pdf', '_blank');">
-				<h2>🎮</h2>
+			<div class="box" onclick="window.open('https://www.eventbrite.com/e/hackathon-xr-neurotechnology-tickets-657866545547');">
+				<h2>💡</h2>
 				<h3><span class="colortext_h3">Topic 2</span></h3>
 				<div class="descrip"> TBA </div>
 				<ul class="list">
@@ -128,7 +130,7 @@
 			<!-- Mission Block 1: Professional Development -->
 			<div class="mission-block" style="margin: 10px; padding: 10px; border: 1px solid #ddd;">
 				<h3><span class="colortext_body">Professional Development</span></h3>
-				<p class="mission-item">Neureality is a platform for students to explore their passion in the neurotech and VR/AR industries. Through keynotes, workshops, and mentorship, we foster a community of learning and collaboration, connecting participants with peers, future start-up cofounders and seasoned veterans in the field. </p>
+				<p class="mission-item">XR + Neurotechnology hackathon is a platform for students to explore their passion in the neurotech and VR/AR industries. Through keynotes, workshops, and mentorship, we foster a community of learning and collaboration, connecting participants with peers, future start-up cofounders and seasoned veterans in the field. </p>
 			</div>
 
 			<!-- Mission Block 2: Hands-On Experience -->
@@ -170,7 +172,7 @@
   <div class="outer">
     <div class="card">
       <div class="info">
-        <h3 class="title">Pre-hackathon Workshops</h3>
+        <h3 class="title">Hackathon Highlights</h3>
 			<table>
 			  <tr>
 				<th>Time</th>
@@ -178,136 +180,17 @@
 				<th>Host</th>
 			  </tr>
 			  <tr>
-				<td>March 2, 11 AM - 1 PM</td>
-				<td>Work with g.tec Unity EEG</td>
-				<td>Michele Romani @g.tec</td>
+				<td>TBA</td>
+				<td>TBA</td>
+				<td>TBA</td>
 			  </tr>
-			  <tr>
-				<td>March 2, 3 - 4:30 PM</td>
-				<td>Use PhysiolabXR to Build BCIs</td>
-				<td>Haowen 'John' Wei</td>
-			  </tr>
-
-				<tr>
-				<td>March 3, 11AM -1PM</td>
-				<td>Build XR App with Unity Platform</td>
-				<td>Ziyao Gao</td>
-			  </tr>
-
-
 			</table>
           </div>
     </div>
+    
     <div class="card">
       <div class="info">
-        <h3 class="title">Friday 3.8</h3>
-		  <table>
-			  <tr>
-				<th>Time</th>
-				<th>Activities</th>
-				  <th>Host</th>
-				  <th>Location</th>
-			  </tr>
-
-			  <tr>
-				<td>5:15 PM</td>
-				<td>Opening Reception</td>
-				  <td>Everyone</td>
-				  <td>Carleton Commons</td>
-			  </tr>
-
-			  <tr>
-				<td>5:30 PM</td>
-				<td>Hackathon Overview</td>
-				  <td>Leo Li @Columbia</td>
-				  <td>Davis Auditorium</td>
-			  </tr>
-
-			  <tr>
-				<td>5:35 PM</td>
-				<td>Track Reveals</td>
-				  <td>Nikolas Papadopoulos @Columbia</td>
-				  <td>Davis Auditorium</td>
-			  </tr>
-
-			  <tr>
-				<td>6:30 PM</td>
-				<td>Track Selection and Team Speed Dating</td>
-				  <td>Everyone</td>
-				  <td>Carleton Commons</td>
-			  </tr>
-
-			  <tr>
-				<td>6:50 PM</td>
-				<td>Finalize your team</td>
-				  <td>Everyone</td>
-				  <td>Davis Auditorium</td>
-			  </tr>
-
-
-			  <tr>
-				<td>7:30 PM</td>
-				  <td><span class="colortext_body">Keynote Talk Section:</span> “Using Virtual Reality to Study Decision-Making in the Human Brain”
-</td>
-				  <td>Paul Sajda @Columbia</td>
-				  <td>Davis Auditorium</td>
-			  </tr>
-
-			  <tr>
-				<td>7:30-8 PM</td>
-				  <td><span class="colortext_body">Keynote Talk Section: </span>The new Holodeck: A Vision for Spatial Problem-Solving</td>
-				  <td>Valentin Heun @PTC</td>
-				  <td>Davis Auditorium</td>
-			  </tr>
-
-
-			  <tr>
-				<td>8:00-8:30 PM</td>
-				<td>Dinner Available</td>
-				  <td>Everyone</td>
-				  <td>Carleton Commons</td>
-			  </tr>
-
-			  <tr>
-				<td>8:30-9:30 PM</td>
-				<td>Q&A session with each hacking track chair</td>
-				  <td>Haowen Wei, Xinran Shi, Ziwen Xie, Bettina, Andy @Columbia</td>
-				  <td>Carleton Commons</td>
-			  </tr>
-
-			  <tr>
-				<td>9:30-10:30 PM</td>
-				<td>Hardware Distribution & Neurotech Workshop: How to run a Real-time BCI Application</td>
-				  <td>Michele Romani, Fan Cao @g.tec</td>
-				  <td>Davis Auditorium</td>
-			  </tr>
-
-			  <tr>
-				<td>9:30-10:30 PM</td>
-				<td>Hardware Distribution & Virtual Reality Workshop with Meta Quest</td>
-				  <td>Ben yang @Columbia</td>
-				  <td>DCarleton Commons</td>
-			  </tr>
-
-			  <tr>
-				<td>10:30 PM</td>
-				<td>Workspace Closed</td>
-				  <td>Everyone</td>
-				  <td>Carleton Commons</td>
-			  </tr>
-
-
-
-
-
-			</table>
-
-		  </div>
-
-    </div>
-    <div class="card">
-      <div class="info">
-        <h3 class="title">Saturday 3.9</h3>
+        <h3 class="title">Thursday 6.6</h3>
           <table>
 			  <tr>
 				<th>Time</th>
@@ -317,6 +200,13 @@
 			  </tr>
 
 			  <tr>
+				<td>TBA</td>
+				<td>TBA</td>
+				  <td>TBA</td>
+				  <td>TBA</td>
+			  </tr>
+
+			  <!-- <tr>
 				<td>7:30 AM</td>
 				<td>Breakfast Available</td>
 				  <td>Everyone</td>
@@ -335,64 +225,14 @@
 				<td>Hardware Distribution & Neurotech Workshop: How to run a Real-time BCI Application</td>
 				  <td>Michele Romani, Fan Cao @g.tec</td>
 				  <td>Davis Auditorium</td>
-			  </tr>
-
-			  <tr>
-				<td>10-10:30 AM</td>
-				  <td> <span class="colortext_body">Keynote Talk Section:</span>
-Current and future applications of Brain-Computer Interfaces
-				</td>
-				  <td>Christoph Guger @g.tec</td>
-				  <td>Davis Auditorium</td>
-			  </tr>
-
-			  <tr>
-				<td>10:30-11 AM</td>
-				  <td> <span class="colortext_body">Keynote Talk Section: </span> Cueing and Precueing Action in XR</td>
-				  <td>Steve Feiner @Columbia</td>
-				  <td>Davis Auditorium</td>
-			  </tr>
-
-			  <tr>
-				<td>11 AM</td>
-				<td>Hacking Begins</td>
-				  <td>Everyone</td>
-				  <td>Carleton Commons</td>
-			  </tr>
-
-			  <tr>
-				<td>Noon</td>
-				<td>Lunch Available</td>
-				  <td>Everyone</td>
-				  <td>Carleton Commons</td>
-			  </tr>
-
-			  <tr>
-				<td>6:00 PM</td>
-				<td>Dinner Available</td>
-				  <td>Everyone</td>
-				  <td>Carleton Commons</td>
-			  </tr>
-
-			  <tr>
-				<td>10:00 PM</td>
-				<td>Workspace Closed</td>
-				  <td>Everyone</td>
-				  <td>Carleton Commons</td>
-			  </tr>
-
-
-
-
-
-
+			  </tr> -->
 
 			</table>
 	  </div>
     </div>
     <div class="card">
       <div class="info">
-        <h3 class="title">Sunday 3.10</h3>
+        <h3 class="title">Friday 6.7</h3>
 		    <table>
 			  <tr>
 				<th>Time</th>
@@ -402,6 +242,12 @@ Current and future applications of Brain-Computer Interfaces
 			  </tr>
 
 			  <tr>
+				<td>TBA</td>
+				<td>TBA</td>
+				  <td>TBA</td>
+				  <td>TBA</td>
+			  </tr>
+			  <!-- <tr>
 				<td>8:00 AM</td>
 				<td>Breakfast Available</td>
 				  <td>Everyone</td>
@@ -445,61 +291,9 @@ Current and future applications of Brain-Computer Interfaces
 				<td>Workspace Closed</td>
 				  <td>Everyone</td>
 				  <td>Carleton Commons</td>
-			  </tr>
-
-
-
+			  </tr> -->
 
 			</table>
-
-	  </div>
-    </div>
-    <div class="card">
-      <div class="info">
-        <h3 class="title">Monday 3.11</h3>
-		    <table>
-			  <tr>
-				<th>Time</th>
-				<th>Activities</th>
-				  <th>Host</th>
-				  <th>Location</th>
-			  </tr>
-
-			  <tr>
-				<td>8:00 AM</td>
-				<td>Breakfast Available</td>
-				  <td>Everyone</td>
-				  <td>Carleton Commons</td>
-			  </tr>
-
-
-
-
-				<tr>
-				<td>9 AM</td>
-				<td>Demos and Presentations</td>
-				  <td>Everyone</td>
-				  <td>Davis Auditorium</td>
-			  </tr>
-
-			  <tr>
-				<td>11 AM</td>
-				<td>Peer and Staff Voting</td>
-				  <td>Everyone</td>
-				  <td>Davis Auditorium</td>
-			  </tr>
-
-				<tr>
-				<td>Noon</td>
-				<td>Award Ceremony & CLosing</td>
-				  <td>Everyone</td>
-				  <td>Davis Auditorium</td>
-			  </tr>
-
-
-
-			</table>
-
 	  </div>
     </div>
   </div>
@@ -520,7 +314,7 @@ Current and future applications of Brain-Computer Interfaces
 			 </div>
 
 
-			<div class="card_sec">
+			<!-- <div class="card_sec">
 				<div class="box_container">
 					<div class="box">
 						<img id="liinc" class="pic" alt="picture" src='./images/paul.png'>
@@ -582,7 +376,7 @@ Current and future applications of Brain-Computer Interfaces
 							<li> VP of Innovation Engineering at PTC</li>
 							<li> Research focuses on new computer interaction methods for the physical space</li>
 						</ul>
-					</div>
+					</div> -->
 
 				</div>
 
@@ -606,6 +400,10 @@ Current and future applications of Brain-Computer Interfaces
 			<div class="card_sec2">
 				<div class="box_container">
 					<div class="box2">
+						<a href="https://openbci.com/"><img id="liinc" class="cgui" alt="OpenBCI" src='./images/openbci.png'></a>
+					</div>
+
+					<div class="box2">
 						<a href="https://liinc.bme.columbia.edu"><img id="liinc" class="cgui" alt="LIINC" src='./images/liinc.png'></a>
 					</div>
 
@@ -614,32 +412,16 @@ Current and future applications of Brain-Computer Interfaces
 					</div>
 
 					<div class="box2">
-						<a href="https://graphics.cs.columbia.edu/home"><img id="cgui" class="cgui" alt="CGUI" src='./images/CGUI.png'></a>
-					</div>
-
-					<div class="box2">
-						<a href="https://www.gtec.at"><img id="liinc" class="cgui" alt="g.tec" src='./images/g.tec-logo-blue-white.jpg'></a>
-					</div>
-
-					<div class="box2">
-						<a href="https://openbci.com/"><img id="liinc" class="cgui" alt="OpenBCI" src='./images/openbci.png'></a>
-					</div>
-
-					<div class="box2">
 						<a href="https://www.engineering.columbia.edu/"><img id="liinc" class="cgui" alt="Columbia Engineering" src='./images/columbia-engineering-logo_0_720.jpg'></a>
 					</div>
 
-					<div class="box2">
-						<a href="https://www.bme.columbia.edu/"><img id="liinc" class="cgui" alt="Columbia Biomedical Engineering" src='./images/bmelogo.jpg'></a>
-
-					</div>
 				</div>
 			</div>
 		</div>
 
 	<div class="landing2">
 	<div class="text-container">
-				<button id="getstart" class="getstart" type="button" onclick="window.location.href='https://forms.gle/M77Ztr3GR7koiwse8';"><span1></span1>BECOME A SPONSOR</button>
+				<button id="getstart" class="getstart" type="button" onclick="window.location.href='https://www.eventbrite.com/e/hackathon-xr-neurotechnology-tickets-657866545547';"><span1></span1>BECOME A SPONSOR</button>
 		</div>
 	</div>
 
@@ -657,71 +439,8 @@ Current and future applications of Brain-Computer Interfaces
 		<div class="text-container5">
 
 		<div class="faq-item">
-			<h2 class="FAQ_Q"><span class="colortext_body">What</span> is the Neureality Hackathon?</h2>
-			<p class="answer">The Neureality Hackathon is a unique event focusing on the intersection of neurotech and virtual reality. It aims to bring together students and professionals from diverse fields to collaborate and innovate.</p>
-		</div>
-
-		<div class="faq-item">
-			<h2 class="FAQ_Q"><span class="colortext_body">When and where</span> will the hackathon take place?</h2>
-			<p class="answer">The hackathon is scheduled for March 8-11. Specific venue details will be provided closer to the date.</p>
-		</div>
-
-		<div class="faq-item">
-			<h2 class="FAQ_Q"><span class="colortext_body">Who</span> can participate?</h2>
-			<p class="answer">The event is open to everyone! Whether you are students, professionals, and enthusiasts in the fields of neurotechnology, virtual reality, and any disciplines. Or if you're a developer, a designer, an artist, an engineer, or an innovator, you're welcome to participate!</p>
-		</div>
-
-		<div class="faq-item">
-			<h2 class="FAQ_Q"><span class="colortext_body">Is</span> there a registration fee for the Neureality Hackathon</h2>
-			<p class="answer">No, there is no registration fee. The Neureality Hackathon is completely free to participate
-				in. We believe in making this innovative event accessible to everyone interested in the fields of neurotech
-				and virtual reality.</p>
-		</div>
-
-		<div class="faq-item">
-			<h2 class="FAQ_Q"><span class="colortext_body">How</span> do I register</h2>
-			<p class="answer">To begin the registration process, please fill out <a href="https://forms.gle/TxjTHecqjE2m4uz98">the interest form</a>. Once
-				official registration opens, we will notify you via email if you are selected to participate, you'll
-				receive a link to the final registration form. In the event you are waitlisted, we will also inform
-				you and provide further instructions as needed. </p>
-		</div>
-
-		<div class="faq-item">
-			<h2 class="FAQ_Q"><span class="colortext_body">What</span> should I bring to the hackathon</h2>
-			<p class="answer"> Participants should bring their laptops, chargers, and any other devices they might need
-				for designing, coding, and development. If you have specific hardware or software you prefer to work with, feel free
-				to bring that as well. We provide neuroimaging (EEG, EMG, etc.) and VR hardware.</p>
-		</div>
-
-		<div class="faq-item">
-			<h2 class="FAQ_Q"><span class="colortext_body">Will</span> there be any prizes or awards</h2>
-			<p class="answer">Yes, the hackathon will feature various prizes for outstanding projects. Details about the
-				awards will be announced during the event.</p>
-		</div>
-
-		<div class="faq-item">
-			<h2 class="FAQ_Q"><span class="colortext_body">How</span> will teams be formed</h2>
-			<p class="answer">We will host a team formation session at the beginning of the event. Plus you are free to form the team before the hackathon.
-				One way to meet potential teammates is to join <a href="https://join.slack.com/t/neureality-hq/shared_invite/zt-2ay9olb9h-7kbJWaEEiQ0TpYP~S5i3rw">our Slack channel</a> and introduce yourself.
-			</p>
-		</div>
-
-		<div class="faq-item">
-			<h2 class="FAQ_Q"><span class="colortext_body">How</span> can I register to be a mentor at the hackathon</h2>
-			<p class="answer">We greatly value the contributions of mentors in guiding participants through the hackathon.
-				If you are interested in being a mentor, please fill out <a href="https://forms.gle/ERp9DuYJXSmJnuxS7">our mentor interest form</a>, and
-				we will be in touch. We welcome experienced professionals from fields related to neurotech and virtual
-				reality who are eager to share their knowledge and expertise.
-			</p>
-		</div>
-
-		<div class="faq-item">
-			<h2 class="FAQ_Q"><span class="colortext_body">How</span> can my company or organization register to be a sponsor</h2>
-			<p class="answer">Your support as a sponsor is crucial to the success of the Neureality Hackathon. Please
-				fill out <a href="https://forms.gle/SLyajiWubm2TwwH9A">our sponsor interest form</a>, or contact us directly at zihengleoli@cs.columbia.edu. We offer
-				<a href="https://github.com/Neureality-CU/Neureality/blob/main/SponsorPackage.pdf">various sponsor packages</a>
-				and would be happy to discuss how your company or organization can be a part of
-				this unique and exciting event.</p>
+			<h2 class="FAQ_Q"><span class="colortext_body">What</span> is the XR + Neurotechnology Hackathon?</h2>
+			<p class="answer"> XR + Neurotechnology is a 2-day hackathon combining the latest advances in neurotechnology, multi-modal biosensing, and virtual reality. Participants will be divided into teams and choose from 1 of 2 topics. Teams will have access to high-end workstations, HMDs, and OpenBCI products, including Galea. The event will also include talks from the sponsoring organizations about their ongoing neurotechnology research and relevant job opportunities..</p>
 		</div>
 
 	</div>
@@ -733,20 +452,20 @@ Current and future applications of Brain-Computer Interfaces
 		<div class="footerlink">
 			<h3>LINKS</h3>
 			<a href="./index.html">Home</a>
-			<a href="./FAQ.html">FAQ</a>
+			<a href="./index.html#faq">FAQ</a>
 
 		</div>
 
 		<div class="footernews">
-			<h3>SLACK</h3>
+			<h3>DISCORD</h3>
 
-			<button class="emailsubmit" onclick="window.location.href='https://join.slack.com/t/neureality-hq/shared_invite/zt-2ay9olb9h-7kbJWaEEiQ0TpYP~S5i3rw'">>JOIN</button>
+			<button class="emailsubmit" onclick="window.location.href=''">>COMING</button>
 
 		</div>
 
 		<div class="footercontect">
 			<h3>CONTACT</h3>
-			<p>neurealitycu@gmail.com</p>
+			<p>https://openbci.com/</p>
 
 
 		</div>
