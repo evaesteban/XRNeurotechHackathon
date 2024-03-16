@@ -1,7 +1,7 @@
 *{
 margin: 0;
 padding: 0;
-font-family: 'TheGoodMonolith', sans-serif, 'JetBrains Mono', monospace;
+font-family: 'Inter', sans-serif, 'JetBrains Mono', monospace;
 box-sizing: border-box;
 
 }
@@ -78,7 +78,7 @@ a{
 .nav-links li a:hover{
   width: 100%;
 
-  background: linear-gradient(to right, #7C83FD, #96BAFF, #7DEDFF, #88FFF7);
+  background: linear-gradient(to right, #f58d3e,#AC764F,#929EB3, #014078);
   background-repeat: no-repeat;
 
   background-size: 100% 100%;
@@ -90,7 +90,7 @@ body{
 
   background-color: #080008;
 
-  background-image: url('../images/bg.jpg');
+  background-image: url('../images/bg_ny2.png');
   background-size: cover;
   background-attachment: fixed;
 
@@ -186,7 +186,7 @@ text-align: center;
 margin: 10px 10px;
 font-size: 20px;
 border-radius: 25px;
-border: 2px solid #7DEDFF;
+border: 2px solid #f58d3e;
 background: transparent;
 color:#fff;
 cursor: pointer;
@@ -1072,7 +1072,7 @@ h3{
   text-align: center;
   font-size: 20px;
   border-radius: 25px;
-  border: 2px solid #7DEDFF;
+  border: 2px solid #f58d3e;
   background: transparent;
   color:#fff;
   cursor: pointer;

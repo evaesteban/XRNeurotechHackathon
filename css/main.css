@@ -66,7 +66,7 @@ justify-content: space-between;
 
 .nav-links li a:hover{
   width: 100%;
-	background: -webkit-linear-gradient(28deg, #7C83FD, #96BAFF,#7DEDFF,#88FFF7);
+	background: -webkit-linear-gradient(28deg, #e7a644, #d0471e,#4747f1,#5940c9);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
 }
@@ -127,7 +127,7 @@ overflow: hidden;
 }
 
 span1{
-  background: -webkit-linear-gradient(28deg, #7C83FD, #96BAFF,#7DEDFF,#88FFF7);
+  background: -webkit-linear-gradient(28deg, #e7a644, #d0471e,#4747f1,#5940c9);
   height:100%;
   width:0%;
   border-radius: 25px;
